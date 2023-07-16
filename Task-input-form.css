@@ -1,0 +1,74 @@
+.site-header{
+    width: 100%;
+    height: 128px;
+}
+ul{
+    display: flex;
+    padding: 32px 16px 32px 0;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+}
+.header_tag{
+    display: flex;
+    padding: 16px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color:#FFFFFF;
+    border: 1px solid #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+body{
+    background-color:black;
+    #taskInput{
+        width:750px;
+        height:75px;
+    }
+    #since{
+        width: 350px;
+    }
+    #until{
+        width: 350px;
+    }
+    #music1{
+        width: 700px;
+    }
+    #music2{
+        width: 700px;
+    }
+    #music3{
+        width: 700px;
+    }
+    #music4{
+        width: 700px;
+    }
+    #music5{
+        width: 700px;
+    }
+    #detail{
+        width: 700px;
+        height: 45px;
+    }
+    #OkButton{
+        text-align:center;
+        width:49px;
+        background-color:green;
+    }
+    #mozi-task{
+        color:red;
+    }
+    #since-task{
+        color:red;
+    }
+    #until-task{
+        color:red;
+    }
+    #music-task{
+        color:red;
+    }
+    #detail-task{
+        color:red;
+    }
+}
