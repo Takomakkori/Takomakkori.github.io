@@ -3,10 +3,22 @@
  <head>
     <meta charset="UTF-8"/>
     <title>入力画面</title>
-    <link rel="stylesheet" href="Task-input-form.css"/>
-    <script type="text/javascript" src="Task-input-form.js"></script>
+    <link rel="stylesheet" href="task-input.css"/>
+    <link rel="stylesheet" href="../header/header.css"/>
+    <script type="text/javascript" src="task-input.js"></script>
  </head>
  <body>
+
+      <header class="site-header">
+         <ul class="nav__wrapper">
+            <li class="nav__item"><a class="header_tag" href="../home-menu/home-menu.html">ほーむ</a> </li>
+            <li class="nav__item"><a class="header_tag" href="../task-remind/task-remind.html">たすく</a></li>
+            <li class="nav__item"><a class="header_tag" href="task-input.html">ついか</a></li>
+            <li class="nav__item"><a class="header_tag" href="../add-music/add-music.html">おんがく</a></li>
+         </ul>
+      </header>
+
+
      <style>
       .Music select{
          width:500px;
@@ -14,51 +26,37 @@
       </style>
       <div id="mozi-task">タスク</div> 
       <div><input type="text" id="taskInput" size=100 placeholder="タスクを入力してください ＊必須"></input></div>
-      <div id="since-task">開始日時</div> 
+      <div id="since-task">開始日程</div> 
       <div><input type="datetime-local" id="since" size=100 placeholder="カレンダーから入力してください=>"  ></input>
-      <div id="until-task" >終了日時ccccxccxccxcxcxcxcxcxvcxvcccxcxcxvcxvcvccvcccxcvxcxcvx
-         
-      </div> 
+      <div id="until-task" >終了日程</div> 
       <div><input type="datetime-local" id="until" size=100   ></input>  
       <div id="music-task" >音楽選択</div> 
-      <div id="m-m1"><開始のアラーム></1></div>
+      <div id="m-m1"><1回目の音楽></1></div>
       <div class="Music"><select name="music" id="music1" size="1">
          <option disabled>音楽を選択してください</option>
-         <option value="1">音楽1</option>
-         <option value="2">音楽2</option>
-         <option value="3">音楽3</option>
+         
       </select></div>
-      <div id="m-m2"><1回目のアラーム(開始から終了まで75%の時間で通知)></div>
+      <div id="m-m2"><２回目の音楽></div>
       <div class="Music"><select name="music" id="music2" size="1">
          <option disabled>音楽を選択してください</option>
-         <option value="1">音楽1</option>
-         <option value="2">音楽2</option>
-         <option value="3">音楽3</option>
+         
       </select></div>
-      <div id="m-m3"><2回目のアラーム(開始から終了まで50%の時間で通知)></div>
+      <div id="m-m3"><３回目の音楽></div>
       <div class="Music"><select name="music" id="music3" size="1">
          <option disabled>音楽を選択してください</option>
-         <option value="1">音楽1</option>
-         <option value="2">音楽2</option>
-         <option value="3">音楽3</option>
+         
       </select></div>
-      <div id="m-m4"><3回目のアラーム(開始から終了まで25%の時間で通知)></div>
+      <div id="m-m4"><４回目の音楽></div>
       <div class="Music"><select name="music" id="music4" size="1">
          <option disabled>音楽を選択してください</option>
-         <option value="1">音楽1</option>
-         <option value="2">音楽2</option>
-         <option value="3">音楽3</option>
+         
       </select></div>
-      <div id="m-m5"><アラームが消える最後の音楽></div>
+      <div id="m-m5"><締切時間の音楽></div>
       <div class="Music"><select name="music" id="music5" size="1">
          <option disabled>音楽を選択してください</option>
-         <option value="1">音楽1</option>
-         <option value="2">音楽2</option>
-         <option value="3">音楽3</option>
+
       </select></div>
-<!--- <div id="detail-task" >タスクの詳細</div> 
-      <div><input type="text" size=100 placeholder="詳細を入力してください  ＊任意" id="detail"></input></div>-->
       <p><div  class="OkButton is-primary is-light"><button type="submit" placeholder="" id="OkButton">決定</button></div>></p>> 
       <a href="something" id="List_Link"><p>Task確認画面→</p></a>
+
    </body>
-       </html>
